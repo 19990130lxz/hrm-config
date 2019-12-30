@@ -8,7 +8,7 @@ spring:
   application:
     name: COURSE-SERVICE
   datasource:
-    url: jdbc:mysql:///hrm?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql:///hrm-course?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
 #开启feign的hystrix
 feign:
   hystrix:
